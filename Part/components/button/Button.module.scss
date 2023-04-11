@@ -1,0 +1,13 @@
+.Button{
+    outline: none;
+    border: none;
+    border-radius: 2em;
+
+    display: grid;
+    place-items: center;
+  //  grid-template-columns: 3fr 1fr;
+    position: relative;
+//    font-size: 1.5em;
+    cursor: pointer;
+  //  border: none;
+}

@@ -1,7 +1,23 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@services/*": ["services/*"],
+      "@models/*": ["mongoose/models/*"],
+      "@mongoose/*": ["mongoose/*"],
+      "@socket/*": ["app/layouts/socket/*"],
+      "@public/*": ["public/*"],
+      "@layouts/*": ["app/layouts/*"],
+      "@hooks": ["hooks/"],
+      "@part": ["Part"],
+      "@total": ["Total"],
+      "@db": ["Total/db"],
+      "@svg": ["modules/SVG"],
+      "@config/*": ["config/*"],
+      "@components/*": ["components/*"],
+      "@modals/*": ["app/layouts/modals/*"],
+      "@svg/*": ["public/svg/*"],
+      "@keys/*": ["keys/*"]
     }
   }
 }

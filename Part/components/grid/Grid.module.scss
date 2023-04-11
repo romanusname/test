@@ -1,0 +1,7 @@
+.Grid{
+  display: grid;
+ // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  position: relative;
+ // place-items: center;
+  perspective: 800px;
+}

@@ -1,0 +1,24 @@
+.horizontal{
+ // display: grid;
+ // grid-auto-flow: column;
+
+ // width: 300%;
+ // display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+}
+
+.section{
+  white-space: nowrap;
+  user-select:none;
+//  display: grid;
+ // grid-template-areas: "middle";
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+
+ // width:100%;
+//  height:100%;
+}

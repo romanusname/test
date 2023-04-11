@@ -1,0 +1,10 @@
+.Flex{
+  display:flex;
+  align-items: center;
+  position: relative;
+ // justify-content: center;
+  justify-content: space-around;
+  perspective: 800px;
+
+  flex-wrap:wrap;
+ }
